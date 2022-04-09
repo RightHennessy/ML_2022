@@ -298,24 +298,24 @@ data.profile_report()
 
 ### 분석하기
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d93ace64-b395-49a8-8502-48ccea3fb5ea/Untitled.png)
+![Untitled](Pandas%20%E1%84%85%E1%85%A1%E1%84%8B%20e4f5e/Untitled.png)
 
 Missing cells : 결측값
 
 <br/>
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b478fa23-d8db-4529-bf7b-bd5e0bf7c570/Untitled.png)
+![Untitled](Pandas%20%E1%84%85%E1%85%A1%E1%84%8B%20e4f5e/Untitled%201.png)
 
 Unanamed : 99% 이상이 missing 으로 예상
 
 <br/>
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f2e394b3-3c4d-4e41-a7ea-13e5f0a69aea/Untitled.png)
+![Untitled](Pandas%20%E1%84%85%E1%85%A1%E1%84%8B%20e4f5e/Untitled%202.png)
 
 variable에서 missing 된 값은 있는지, 몇개의 종류로 나눠졌는지 확인 가능
 
 <br/>
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2447d715-0b32-438f-b233-b6f154559d7a/Untitled.png)
+![Untitled](Pandas%20%E1%84%85%E1%85%A1%E1%84%8B%20e4f5e/Untitled%203.png)
 
 Toggle details → Categories
