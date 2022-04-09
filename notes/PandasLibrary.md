@@ -298,24 +298,24 @@ data.profile_report()
 
 ### 분석하기
 
-![Untitled](/notes/images/pandas_1.png)
+![Untitled](/images/pandas-1.png)
 
 Missing cells : 결측값
 
 <br/>
 
-![Untitled](/notes/images/pandas_2.png)
+![Untitled](/images/pandas-2.png)
 
 Unanamed : 99% 이상이 missing 으로 예상
 
 <br/>
 
-![Untitled](/notes/images/pandas_3.png)
+![Untitled](/images/pandas-3.png)
 
 variable에서 missing 된 값은 있는지, 몇개의 종류로 나눠졌는지 확인 가능
 
 <br/>
 
-![Untitled](/notes/images/pandas_4.png)
+![Untitled](/images/pandas-4.png)
 
 Toggle details → Categories
