@@ -298,24 +298,24 @@ data.profile_report()
 
 ### 분석하기
 
-![Untitled](https://github.com/RightHennessy/ML_2022/notes/images/pansdas-1.png)
+![pansdas-1](https://user-images.githubusercontent.com/88828858/162556717-0412b298-1c23-416b-a478-56a1b0df8817.png)
 
 Missing cells : 결측값
 
 <br/>
 
-![Untitled](notes/images/pansdas-2.png)
+![pansdas-2](https://user-images.githubusercontent.com/88828858/162556727-781522be-74e0-4ea2-bcdc-5263ea412809.png)
 
 Unanamed : 99% 이상이 missing 으로 예상
 
 <br/>
 
-![Untitled](notes/images/pansdas-3.png)
+![pansdas-3](https://user-images.githubusercontent.com/88828858/162556739-a7b7723f-44ce-46e5-beb6-a67332ed80d3.png)
 
 variable에서 missing 된 값은 있는지, 몇개의 종류로 나눠졌는지 확인 가능
 
 <br/>
 
-![Untitled](notes/images/pansdas-4.png)
+![pansdas-4](https://user-images.githubusercontent.com/88828858/162556744-c8fb637c-87b0-4552-a823-992a8d451b51.png)
 
 Toggle details → Categories
