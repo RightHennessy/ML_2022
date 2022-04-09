@@ -298,7 +298,7 @@ data.profile_report()
 
 ### 분석하기
 
-![Untitled](https://github.com/RightHennessy/ML_2022/blob/notes/images/pansdas-1.png)
+![Untitled](https://github.com/RightHennessy/ML_2022/notes/images/pansdas-1.png)
 
 Missing cells : 결측값
 
