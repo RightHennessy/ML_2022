@@ -2,6 +2,12 @@
 
 ## K-Nearest Neighbors : K-최근접이웃
 
+<br/>
+
+[노션 보러가기](https://lavish-acorn-2f7.notion.site/KNN-K-f2192ef4c9ca4fa39ed4b70b890ca90d)
+ 
+<br/>
+
 ### 분류와 회귀
 
 지도 학습의 대표적인 머신 러닝 방법
