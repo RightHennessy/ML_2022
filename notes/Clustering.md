@@ -28,7 +28,7 @@
 
   → 비지도 학습 : Unsupervised learning
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/695e84ab-a090-4603-b4dc-595dbcb508e9/Untitled.png)
+![Untitled](https://user-images.githubusercontent.com/88828858/182010210-22d25cf4-5e92-4132-8564-9d979fb78884.png)
 
 </br>
 
@@ -74,7 +74,7 @@
 
  : 택시 거리, L₁ 거리 - 아래 그림에서 직선거리 제외 나머지
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5fb3143f-62b9-4a89-8dff-1f0d9879988f/Untitled.png)
+![Untitled 1](https://user-images.githubusercontent.com/88828858/182010216-e32a8559-87ae-4ff1-9d53-079f679ad591.png)
 
 ✔ 마할라노비스 거리 (Mahalanobis Distance)
 
@@ -82,9 +82,10 @@
 
  : 데이터의 Convariance Matrix가 identity matrix인 경우는 유클리디언 거리와 동일
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0d530918-a5dd-43aa-9a62-789e13e080e4/Untitled.png)
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/dceb88f5-d2b6-4b7b-9f2a-9b0390eb1e26/Untitled.png)
+![Untitled 2](https://user-images.githubusercontent.com/88828858/182010218-c0e01fa1-503b-4ce7-914a-8cd0cabc7a10.png)
+![Untitled 3](https://user-images.githubusercontent.com/88828858/182010219-3490344c-706f-474b-93b1-74a8f1dc6a1e.png)
+
 
 위 그림에서 마할라노비스 거리로 측정 시 B가 더 멀다
 
@@ -108,7 +109,7 @@
 
  : 데이터의 분포를 기반으로 높은 밀도를 갖는 세부 영역들로 전체 영역을 구분
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/fb12a5e1-9077-4b9b-b1f8-11b8b3cdb5e2/Untitled.png)
+![Untitled 4](https://user-images.githubusercontent.com/88828858/182010220-4ea3a85f-f89f-495a-b6de-8846f66d10ad.png)
 
 </br>
 
@@ -124,7 +125,8 @@
 
  : 덴드로그램 생성 후 적절한 수준에서 자르면 그에 해당하는 군집화 결과 생성
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7a914e30-52f5-4a8d-9212-c3410ec05698/Untitled.png)
+![Untitled 5](https://user-images.githubusercontent.com/88828858/182010222-41e4bef1-0305-4aa0-96c9-f42ad939ff82.png)
+
 ✔ 예시
 
  (1) 모든 데이터 사이의 거리에 대한 유사도 행렬 계산
@@ -135,13 +137,12 @@
 
  (1-3) 반복
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/09c3073f-7bb1-4b37-9065-f26433ce903c/Untitled.png)
+![Untitled 6](https://user-images.githubusercontent.com/88828858/182010223-a140a74d-c492-4ef7-b75e-10a6225d4d21.png)
+![Untitled 7](https://user-images.githubusercontent.com/88828858/182010224-59f6dbe4-3783-478e-a7c0-3523d354bbeb.png)
+![Untitled 8](https://user-images.githubusercontent.com/88828858/182010225-2fefd9c2-8e59-4fe5-b671-b7153185c911.png)
+![Untitled 9](https://user-images.githubusercontent.com/88828858/182010226-8963c729-9253-4684-9d17-5f6572edad1a.png)
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a82e5796-ec01-47b2-ad50-94ba2fe0b47a/Untitled.png)
-
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/72b87724-c6f9-4b6a-b84e-6bfe3ac31700/Untitled.png)
-
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d61805a4-15e0-4940-a6c1-a41a18616d82/Untitled.png)
+</br>
 
  # 기준1에 걸리는 군집 : 2개
 
@@ -164,8 +165,9 @@
 : 최종 결과가 클 수록 서로 다른 군집은 유사도가 낮아 멀리 있고, 최종 결과가 작을 수록
 서로 다른 군집의 유사도는 높아 가까이에 있다.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4cebe367-fb72-4a9d-b3f0-46b4dd39ca2c/Untitled.png)
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/68b12ccb-aaf2-4390-a2ed-1aeee92bc95c/Untitled.png)
+![Untitled 10](https://user-images.githubusercontent.com/88828858/182010228-59456c63-feac-46ed-b40f-09403339b61d.png)
+![Untitled 11](https://user-images.githubusercontent.com/88828858/182010229-6f3fd665-df9c-4299-a1a9-cc10833ba525.png)
+
 
 { 중심(AUB) : C를 기준으로 모든 점에 대한 거리 }
 
@@ -181,7 +183,7 @@
 
 사전에 군집의 수 K가 정해져야 알고리즘을 수행할 수 있다 ! 
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4b43dbf6-02c1-40c2-b9d8-962f5fa62f65/Untitled.png)
+![Untitled 12](https://user-images.githubusercontent.com/88828858/182010230-ae45088f-c9e9-44af-a3b8-1facbc9069a8.png)
 
 ✔ K=2 인 경우 K 평균 군집화 예시
 
@@ -190,7 +192,7 @@
  (3) 각 군집의 중심 다시 계산 → C₁, C₂를 update, 평균을 찾아 재할당
  (4) 중심이 변하지 않을 때까지 (2-3)번 반복
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8ccc045c-4210-4c82-a8bf-d224c3e9aac5/Untitled.png)
+![Untitled 13](https://user-images.githubusercontent.com/88828858/182010231-9a263013-cf22-487f-a759-ccf82d7133e5.png)
 
 ✔ K 평균 군집화 예시 
 
@@ -203,19 +205,20 @@
 
 😥 초기 중심 설정은 최종 군집화 결과에 영향을 미칠 수 있음 : (좌) 좋은 결과 (우) 안좋은 결과
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4f652c39-b3d4-4113-883f-a2ea41901d97/Untitled.png)
+![Untitled 14](https://user-images.githubusercontent.com/88828858/182010232-1b1220d0-7240-41bc-8387-64742fb3f9a7.png)
 
 </br>
 
 😀 K 평균 군집화 초기화의 바른 예시
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a8a65f81-268d-44ae-ae63-21bfd13ac9df/Untitled.png)
+![Untitled 15](https://user-images.githubusercontent.com/88828858/182010234-7a4a0e8d-b962-4e6f-92c3-4d092946d9e2.png)
+
 
 </br>
 
 😥 K 평균 군집화 초기화의 잘못된 예시
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7861fec2-e22f-464f-b059-f558e737e9e7/Untitled.png)
+![Untitled 16](https://user-images.githubusercontent.com/88828858/182010237-ca78bdbf-2183-4ec4-a048-2ad5f187b6fa.png)
 
 </br>
 
@@ -238,15 +241,15 @@
 
 : 서로 다른 크기의 군집을 잘 찾아내지 못한다. 
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f6ae79eb-cb55-4f24-83cb-24a4977c7e06/Untitled.png)
+![Untitled 17](https://user-images.githubusercontent.com/88828858/182010238-3b60dbcb-fda3-48de-ae2c-75bac7a1bcad.png)
 
 : 서로 다른 밀도의 군집을 잘 찾아내지 못한다. 
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/33d96ac6-46da-4e1f-bc46-5e48b221bc83/Untitled.png)
+![Untitled 18](https://user-images.githubusercontent.com/88828858/182010239-880a3dbf-2c06-4bc5-9b50-b4e8316ee6ec.png)
 
 : 지역적 패턴이 존재하는 군집을 판별하기 어렵다. 
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/aaf29d8a-a00e-49b4-bda6-29a2e5fe1728/Untitled.png)
+![Untitled 19](https://user-images.githubusercontent.com/88828858/182010240-a631f8f5-a608-414a-954d-94fb3c8ba0c2.png)
 
 </br>
 
@@ -254,7 +257,7 @@
  - 다양한 군집 수에 대한 성능 평가 지표를 통해 최적의 군집 수(K) 선택
  - 일반적으로 Elbow point에서 최적의 군집 수 결정
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1e3ce833-1f6d-42d0-ae18-a41d4a0cad74/Untitled.png)
+![Untitled 20](https://user-images.githubusercontent.com/88828858/182010243-adf990e4-1ab3-4917-855d-05b21b96e7e6.png)
 
 </br>
 
@@ -269,7 +272,7 @@
 
  : 군집 내 거리 최소화 (만족), 군집 간 거리 최대화 (불만족) → 군집 간 거리 최대화는 만족 불가
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/dcd71159-ae3b-4567-9745-b9e0243ba2ca/Untitled.png)
+![Untitled 21](https://user-images.githubusercontent.com/88828858/182010245-9e14e7e2-5a53-4cc1-975b-cab0dc48fc98.png)
 
 </br>
 
@@ -289,11 +292,11 @@
 
 → K=2 인 경우에 통계량이 Best인 경우가 많아서 제외 후, 차 순위 K를 선정하는 것이 일반적임
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9dc24f9c-48bd-4b04-b9ac-4921584701c8/Untitled.png)
+![Untitled 22](https://user-images.githubusercontent.com/88828858/182010247-c2c09eae-df8d-49d1-89d1-855ec1636990.png)
 
 예시 ) 
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/15156267-5c88-45d9-a9c1-8e09aead4183/Untitled.png)
+![Untitled 23](https://user-images.githubusercontent.com/88828858/182010248-32d60334-b1b0-41be-a40c-44499fb532a7.png)
 
 k=2 인 경우를 제외하면, k=4인 경우가 1에 가장 근접하며, 그림 상으로도 잘 분할 됨을 알 수 있다. 
 
@@ -315,7 +318,7 @@ k=2 인 경우를 제외하면, k=4인 경우가 1에 가장 근접하며, 그�
 ✔ 주변자료(border point) : 핵심자료는 아니지만 ε-neighborhood에 핵심자료를 포함하는 자료
 ✔ 잡음자료(noise point) : 핵심자료도 주변자료도 아닌 자료
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/07a9ea7f-d84a-4e57-9067-158b01729cfb/Untitled.png)
+![Untitled 24](https://user-images.githubusercontent.com/88828858/182010249-87ff63ed-5e7d-4166-a30a-b3ad5884ad01.png)
 
 </br>
 
@@ -343,9 +346,9 @@ M : 일반적으로 “특성 변수 개수+1”을 사용
 
 ✔ 예시
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2b954255-d5b0-422e-8601-310cea5a6d1b/Untitled.png)
+![Untitled 25](https://user-images.githubusercontent.com/88828858/182010250-49a034f2-3a5a-4047-9f91-68a63df37015.png)
+![Untitled 26](https://user-images.githubusercontent.com/88828858/182010251-397096d5-cefd-4d2e-b014-a592f282b3ba.png)
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/24745bfe-66d2-4659-aacb-c6e682c3a0ee/Untitled.png)
 좌측 그림에서 ε=1 인 경우 보다 ε=0.6인 경우 잡음이 더 많다. 
 
 </br>
