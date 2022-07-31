@@ -1,5 +1,7 @@
 # Clustering : 군집화
 
+[노션 보러가기](https://www.notion.so/Clustering-6a748ddb68e94c049a43cd5e7fd2a5e6)
+
 </br>
 
 ## 군집화 개념
